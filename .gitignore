@@ -1,0 +1,17 @@
+# User workspace and runtime state
+workspace/
+.tark/
+
+# Build outputs
+build/
+*.o
+*.out
+*.exe
+core
+core.*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
