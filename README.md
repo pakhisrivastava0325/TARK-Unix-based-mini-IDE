@@ -233,13 +233,23 @@ The test scripts use temporary workspaces for their checks. The integration and 
 ## Team contributions
 
 This project was developed collaboratively. The main responsibilities were divided as follows:
+## My Contribution
 
-| Contributor | Contribution |
-|---|---|
-| **Pakhi** | Main CLI: startup/menu, workspace setup, module auto-loader, command parser, dispatcher, file-command interface, main loop, and integration hooks |
-| **Bhavya** | Search and Unix utility modules |
-| **Nysa** | Program execution, compilation, process listing, system information, and permissions |
-| **Ishita** | File-management submenu and related operations |
+I was responsible for developing the **Main Command-Line Interface (CLI)** of TARK using Bash scripting.
+
+My contributions include:
+
+- **Main CLI Development:** Designed and implemented the central command-line interface and interactive menu system.
+- **Command Parsing:** Developed the command parser to interpret user inputs and handle arguments, including filenames containing spaces.
+- **Command Dispatching:** Implemented the dispatcher to route user commands to their respective functions and modules.
+- **Module Auto-Loading:** Developed functionality to automatically load shell modules using Bash `source`.
+- **Workspace Management:** Implemented workspace initialization and environment variable configuration.
+- **File Operations:** Developed commands for creating, opening, editing, saving, deleting, and listing files.
+- **Main Interactive Loop:** Implemented the continuous input-processing loop for user interaction.
+- **System Integration:** Connected the individual modules through the main CLI and implemented basic validation and error handling.
+
+My work focused on building the central control structure of TARK, allowing users to access its different functionalities through a unified command-line environment.
+
 
 The process/pipeline C helper and Makefile/report tooling are included as integrated project features.
 
